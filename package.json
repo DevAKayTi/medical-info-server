@@ -9,6 +9,7 @@
     "start": "node dist/server.js",
     "seed": "ts-node src/database/seeders/seed.ts",
     "seed:clean": "ts-node src/database/seeders/seed.ts --clean",
+    "seed:data": "ts-node src/database/seeders/seed.ts --data",
     "lint": "eslint src --ext .ts",
     "type-check": "tsc --noEmit"
   },
